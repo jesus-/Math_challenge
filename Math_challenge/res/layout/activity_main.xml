@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_vertical"
+	android:orientation="vertical"
+	>
+	
+      <Button
+        style="@style/buttonsMain"
+        android:id="@+id/buttonEasy"
+	    android:text="@string/easy"
+		android:background="@drawable/textlines"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:onClick="onBtnClickedEasy"
+	    /> 
+	    <Button
+        style="@style/buttonsMain"	        
+        android:id="@+id/buttonHard"	        
+	    android:text="@string/hard"	    
+	    android:layout_below="@+id/buttonEasy"  
+		android:background="@drawable/textlines"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:onClick="onBtnClickedHard"	
+	    />
+	    <Button
+        style="@style/buttonsMain"	        
+        android:id="@+id/buttonExtreme"	        
+	    android:text="@string/extreme"
+	    android:layout_below="@+id/buttonHard"  
+		android:background="@drawable/textlines"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:onClick="onBtnClickedExtreme"		    
+	    />
+
+   
+    	
+</RelativeLayout>
+  

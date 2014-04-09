@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Math_challenge</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="number1"><b>1</b></string>
+    <string name="number2"><b>2</b></string>
+    <string name="number3"><b>3</b></string>
+    <string name="number4"><b>4</b></string>
+    <string name="number5"><b>5</b></string>
+    <string name="number6"><b>6</b></string>
+    <string name="number7"><b>7</b></string>
+    <string name="number8"><b>8</b></string>
+    <string name="number9"><b>9</b></string>   
+    <string name="number0"><b>0</b></string>
+    <string name="empty"></string>
+    <string name="delete"><b>C</b></string>
+    <string name="dot"><b>.</b></string>
+    <string name="root"><b>√ </b></string>
+    <string name="score">Score: </string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="extreme">Extreme</string>
+    <string name="savescore">Save Score</string>
+    <string name="name">Name: </string>
+
+    
+</resources>

@@ -1,0 +1,6 @@
+poner bonita la interfaz
+poner una barra en vez en vez del timer??
+mejorar los algoritmos
+poner colores de fondo de los botones y de pantalla?
+poner idiomas
+conectar puntuaciones a internet.

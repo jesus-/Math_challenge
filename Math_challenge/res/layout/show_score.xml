@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"     
+    >
+	 <View 
+      android:id="@+id/View01"
+      android:layout_marginTop="10dp"          
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#2B497B"
+     />    
+      <TextView
+       android:id="@+id/textShowScore"
+       	  android:layout_below="@+id/View01"      
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/empty"
+       android:gravity="center"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textSize="40sp"
+      />
+	 <View 
+      android:id="@+id/View02"
+      android:layout_marginTop="10dp"  
+	  android:layout_below="@+id/textShowScore"      
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#2B497B"
+     />
+	  <RelativeLayout
+	      android:id="@+id/layoutName"
+          android:layout_marginTop="10dp"      
+	      android:layout_below="@+id/View02"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:gravity="center_horizontal"
+	      android:orientation="horizontal" 
+	      android:layout_marginLeft="10dp"
+ 		  android:layout_marginRight="10dp" 
+	      >	
+	        <TextView
+	            android:id="@+id/textName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/editTextName"
+	            android:layout_alignBottom="@+id/editTextName"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/name"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:typeface="monospace"
+	            android:textSize="30sp" />
+	      	      	
+	        <EditText
+	            android:layout_toRightOf="@+id/textName" 
+	            android:id="@+id/editTextName"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" 
+   			    android:typeface="monospace"
+                android:textSize="30sp"	>            
+	            <requestFocus />
+	        </EditText>
+
+
+		</RelativeLayout>
+
+	  <Button
+	      android:id="@+id/buttonSave"
+	      android:layout_below="@+id/layoutName"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:onClick="onBtnClickedSaveScore"
+	      android:text="@string/savescore" 
+		  android:layout_alignParentRight="true"
+ 		  android:layout_marginLeft="10dp"
+ 		  android:layout_marginRight="10dp" 
+          />      
+	 <View 
+      android:layout_marginTop="10dp" 
+      android:id="@+id/View03"
+      android:layout_below="@+id/buttonSave" 
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#2B497B"
+     />	      
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_below="@+id/View03"
+ 		    android:layout_marginLeft="10dp"
+ 		    android:layout_marginRight="10dp"             
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            
+           >
+        </ListView>
+
+</RelativeLayout>
